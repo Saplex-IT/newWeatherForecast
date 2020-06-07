@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="images">
+        <item>@drawable/sun</item>
+        <item>@drawable/nosun</item>
+        <item>@drawable/peremsun</item>
+        <item>@drawable/smallrain</item>
+        <item>@drawable/bigrain</item>
+        <item>@drawable/snow</item>
+    </array>
+
+    <string-array name="weekday">
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+        <item>Вс</item>
+    </string-array>>
+
+    <string-array name="citys">
+        <item>Абакан</item>
+        <item>Анапа</item>
+        <item>Архангельск</item>
+        <item>Барнаул</item>
+        <item>Белгород</item>
+        <item>Бийск</item>
+        <item>Брянск</item>
+        <item>Геленжик</item>
+        <item>Дмитров</item>
+        <item>Екатеринбург</item>
+        <item>Есентуки</item>
+        <item>Калининград</item>
+        <item>Калуга</item>
+        <item>Москва</item>
+        <item>Муром</item>
+        <item>Новосибирск</item>
+        <item>Норильск</item>
+        <item>Пермь</item>
+        <item>Ростов на Дону</item>
+        <item>Санкт Петербург</item>
+        <item>Смоленск</item>
+        <item>Сочи</item>
+        <item>Тюмень</item>
+        <item>Чебаркуль</item>
+    </string-array>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="images">
+        <item>@drawable/sun</item>
+        <item>@drawable/nosun</item>
+        <item>@drawable/peremsun</item>
+        <item>@drawable/smallrain</item>
+        <item>@drawable/bigrain</item>
+        <item>@drawable/snow</item>
+    </array>
+
+    <string-array name="weekday">
+        <item>Mon</item>
+        <item>Tues</item>
+        <item>Wed</item>
+        <item>Thurs</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>>
+
+    <string-array name="citys">
+        <item>Abakan</item>
+        <item>Anapa</item>
+        <item>Arkhangelsk</item>
+        <item>Barnaul</item>
+        <item>Belgorod</item>
+        <item>Biysk</item>
+        <item>Bryansk</item>
+        <item>Gelendzhik</item>
+        <item>Dmitrov</item>
+        <item>Yekaterinburg</item>
+        <item>Yessentuki</item>
+        <item>Kaliningrad</item>
+        <item>Kaluga</item>
+        <item>Moscow</item>
+        <item>Murom</item>
+        <item>Novosibirsk</item>
+        <item>Norilsk</item>
+        <item>Perm</item>
+        <item>Rostov-on-Don</item>
+        <item>Saint Petersburg</item>
+        <item>Smolensk</item>
+        <item>Sochi</item>
+        <item>Tyumen</item>
+        <item>Chebarkul</item>
+    </string-array>
+</resources>

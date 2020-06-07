@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather forecast</string>
+    <string name="textView_namecity">Name City</string>
+    <string name="textView_mon">Mon</string>
+    <string name="textView_Tues">Tues</string>
+    <string name="textView_Wed">Wed</string>
+    <string name="textView_thurs">Thurs</string>
+    <string name="textView_fri">Fri</string>
+    <string name="textView_sat">Sat</string>
+    <string name="textView_sun">Sun</string>
+    <string name="textView_gradmon">+20</string>
+    <string name="textView_gradtues">+25</string>
+    <string name="textView_gradwed">+21</string>
+    <string name="textView_gradyhurs">+30</string>
+    <string name="textView_gradfri">+30</string>
+    <string name="textView_gradsat">+31</string>
+    <string name="textView_gradsun">+35</string>
+    <string name="textView_gradmongoriz">+18</string>
+    <string name="textView_gradtuesgoriz">+20</string>
+    <string name="textView_gradwedgoriz">+20</string>
+    <string name="textView_gradthursgoriz">+25</string>
+    <string name="textView_gradfrigoriz">+30</string>
+    <string name="textView_gradsatgoriz">+31</string>
+    <string name="textView_gradsungoriz">+30</string>
+
+</resources>
