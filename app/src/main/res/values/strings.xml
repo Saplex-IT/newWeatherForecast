@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Weather forecast</string>
+
+    <string name="action_settings">Settings</string>>
+    <string name="setting1">About App</string>>
+
+    <string name="dark_theme">Dark Theme</string>>
+
     <string name="textView_namecity">Name City</string>
     <string name="textView_mon">Mon</string>
     <string name="textView_Tues">Tues</string>
@@ -23,5 +29,9 @@
     <string name="textView_gradfrigoriz">+30</string>
     <string name="textView_gradsatgoriz">+31</string>
     <string name="textView_gradsungoriz">+30</string>
+    <string name="item">Item</string>
+    <string name="msg_about_actv">This activity is in development</string>
+    <string name="button_save">Save email</string>
+    <string name="hint_email">Your email (for feedback)</string>
 
 </resources>

@@ -1,14 +1,11 @@
 package com.example.homework7listsnew;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-
 import android.content.Intent;
 import android.os.Bundle;
 
 import android.widget.TextView;
 
-public class DetailsActivity extends AppCompatActivity {
+public class DetailsActivity extends BaseActivity {
     public TextView textViewNameCityVert;
     public TextView textViewNameCityHoriz;
     String nameCity;

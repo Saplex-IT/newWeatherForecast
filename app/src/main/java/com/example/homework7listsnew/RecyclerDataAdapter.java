@@ -27,14 +27,12 @@ public class RecyclerDataAdapter extends RecyclerView.Adapter<RecyclerDataAdapte
         context = parent.getContext();
         View view = LayoutInflater.from(context).inflate(R.layout.item_rv_layout, parent, false);
         return new ViewHolder(view);
-
     }
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int position) {
         setItemText(viewHolder, data[position]);
         viewHolder.getTextView().setText(data[position]);
-
     }
 
     private void setItemText(@NonNull ViewHolder holder, String text) {
@@ -45,14 +43,10 @@ public class RecyclerDataAdapter extends RecyclerView.Adapter<RecyclerDataAdapte
     @Override
     public int getItemCount() {
         return data == null ? 0 : data.length;
-        //return dataSource.size();
     }
 
     class ViewHolder extends RecyclerView.ViewHolder {
-
         TextView textView;
-
-
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             textView = itemView.findViewById(R.id.itemTextView);
@@ -67,9 +61,6 @@ public class RecyclerDataAdapter extends RecyclerView.Adapter<RecyclerDataAdapte
             });
         }
 
-        public void setData (String description){
-
-        }
 
         public TextView getTextView() {
             return textView;

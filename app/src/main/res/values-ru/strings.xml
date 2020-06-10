@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Прогноз погоды</string>
-    <string name="textView_namecity">Name City</string>
+
+    <string name="action_settings">Настройки</string>>
+    <string name="setting1">О приложении</string>>
+
+    <string name="dark_theme">Темная тема</string>>
+
+    <string name="textView_namecity">Название города</string>
     <string name="textView_mon">Пн</string>
     <string name="textView_Tues">Вт</string>
     <string name="textView_Wed">Ср</string>
@@ -23,5 +29,9 @@
     <string name="textView_gradfrigoriz">+30</string>
     <string name="textView_gradsatgoriz">+31</string>
     <string name="textView_gradsungoriz">+30</string>
+    <string name="item">Item</string>
+    <string name="msg_about_actv">"Эта активити пока в разработке"t</string>
+    <string name="button_save">Сохранить почту</string>
+    <string name="hint_email">Ваша почта (для обратной связи)</string>
 
 </resources>
