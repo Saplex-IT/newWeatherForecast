@@ -15,8 +15,8 @@ import java.util.regex.Pattern;
 
 public class AboutActivity extends BaseActivity {
 
-    TextInputEditText email;
-    Button button;
+    private TextInputEditText emailEditText;
+    private Button button;
     Pattern checkEmail = Pattern.compile("([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})");
 
     @Override
@@ -34,7 +34,7 @@ public class AboutActivity extends BaseActivity {
             }
         });
 
-        email.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+        emailEditText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
                 if (hasFocus) return;
@@ -45,7 +45,7 @@ public class AboutActivity extends BaseActivity {
     }
 
     private void initViews() {
-        email = findViewById(R.id.userMail);
+        emailEditText = findViewById(R.id.userMail);
         button = findViewById(R.id.button_save);
     }
 

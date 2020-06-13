@@ -11,12 +11,9 @@
         android:layout_height="wrap_content"
         android:textSize="30sp"
         android:textColor="@android:color/white"
-
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
-
         android:lines="1"
         android:ellipsize="end"
         tools:text="Item text"/>
-
 </FrameLayout>

@@ -17,5 +17,4 @@
         android:lines="1"
         android:ellipsize="end"
         tools:text="Item text"/>
-
 </FrameLayout>
